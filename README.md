@@ -1,8 +1,43 @@
-# React + Vite
+Mock Data for Blog Posts:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```json
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "content": "This is the first post on the blog.",
+      "author": "John Doe",
+      "date": "2021-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "content": "This is the second post on the blog.",
+      "author": "Jane Doe",
+      "date": "2021-01-02"
+    },
+    {
+      "id": 3,
+      "title": "Third Post",
+      "content": "This is the third post on the blog.",
+      "author": "John Doe",
+      "date": "2021-01-03"
+    },
+    {
+      "id": 4,
+      "title": "Fourth Post",
+      "content": "This is the fourth post on the blog.",
+      "author": "Jane Doe",
+      "date": "2021-01-04"
+    },
+    {
+      "id": 5,
+      "title": "Fifth Post",
+      "content": "This is the fifth post on the blog.",
+      "author": "John Doe",
+      "date": "2021-01-05"
+    }
+  ]
+}
+```
